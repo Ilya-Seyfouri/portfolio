@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #181818;
+  overflow-x: hidden;
+}
+
+@import 'animate.css'; 
+
+@font-face { 
+  font-family:'Helvetica Neue'; 
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');  
+}
+
+@font-face { 
+  font-family:'La Belle Aurore'; 
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');  
+}
+
+
+
+input, 
+textarea { 
+  font-family: 'Helvetica Neue'; 
+}
