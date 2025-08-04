@@ -8,7 +8,7 @@ const portfolioData = {
         {
             title: "CareView",
             cover: care1,
-            url: "https://careview-backend-production.up.railway.app/",
+            url: "https://careview.up.railway.app/",
             youtubeDemo: "https://www.youtube.com/embed/gxm6m2cMNlE",
         }
     ]
