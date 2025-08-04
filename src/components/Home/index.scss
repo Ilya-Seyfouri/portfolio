@@ -138,8 +138,8 @@
 .ilya-img {
   width: 300px;
   height: auto; /* maintain natural aspect ratio */
-  position: absolute;
-  right: 400px;
+  position: relative;
+  left: 800px;
   top: 70px;
 
   border-radius: 70px;       // nice soft rounded corners
