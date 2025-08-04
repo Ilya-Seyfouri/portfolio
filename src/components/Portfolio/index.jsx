@@ -9,7 +9,7 @@ const portfolioData = {
             title: "CareView",
             cover: care1,
             url: "https://careview-backend-production.up.railway.app/",
-            youtubeDemo: "https://www.youtube.com/embed/V78btCnI87Y",
+            youtubeDemo: "https://www.youtube.com/embed/gxm6m2cMNlE",
         }
     ]
 };
@@ -65,19 +65,19 @@ const Portfolio = () => {
                     
                     
                     <h3>Key Features:</h3>
-                    <ul>
-                        <li><strong>Care Tracking:</strong> Digital visit logs and resident notes upon visits</li>
-                        <li><strong>Staff Scheduling:</strong> Shift management with schedule overlap prevention</li>
-                        <li><strong>Family Portal:</strong> Real-time updates allowing families to stay informed about their loved ones</li>
-                        <li><strong>Role-Based Access:</strong> Secure authentication with manager, carer, and family permission levels</li>
+                    <ul className="features-list">
+                        <li className="feature-item"><span className="feature-label">Care Tracking:</span> Digital visit logs and resident notes upon visits</li>
+                        <li className="feature-item"><span className="feature-label">Staff Scheduling:</span> Shift management with schedule overlap prevention</li>
+                        <li className="feature-item"><span className="feature-label">Family Portal:</span> Real-time updates allowing families to stay informed about their loved ones</li>
+                        <li className="feature-item"><span className="feature-label">Role-Based Access:</span> Secure authentication with manager, carer, and family permission levels</li>
                     </ul>
 
                     <h3>Technical Implementation:</h3>
-                    <ul>
-                        <li><strong>Backend:</strong> FastAPI with PostgreSQL</li>
-                        <li><strong>Frontend:</strong> ReactJS</li>
-                        <li><strong>Authentication:</strong> JWT tokens with password hashing</li>
-                        <li><strong>Database Design:</strong> One user table with an assignments table to map out many-to-many relationships</li>
+                    <ul className="tech-list">
+                        <li className="tech-item"><span className="tech-label">Backend:</span> FastAPI with PostgreSQL</li>
+                        <li className="tech-item"><span className="tech-label">Frontend:</span> ReactJS</li>
+                        <li className="tech-item"><span className="tech-label">Authentication:</span> JWT tokens with password hashing</li>
+                        <li className="tech-item"><span className="tech-label">Database Design:</span> One user table with an assignments table to map out many-to-many relationships</li>
                     </ul>
                     
                    
