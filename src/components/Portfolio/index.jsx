@@ -60,7 +60,7 @@ const Portfolio = () => {
                 <div className="project-description">
                     <h2>CareView - Care Home Management System</h2>
                     <p>
-                        A digital platform built for professional healthcare facilities to streamline care tracking, staff coordination, and family communication. Built for an actual care home facility - not just a prototype.
+                        A digital platform built for professional healthcare services to streamline care tracking, staff coordination, and family communication. Built for an actual care facility - not just a prototype.
                     </p>
                     
                     

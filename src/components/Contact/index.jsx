@@ -33,7 +33,7 @@ const Contact = () => {
                     </h1>
                    
                     <div className="contact-icons-container">
-                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ilya-seyfouri-3824422a0">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/ilya-seyfouri/">
                             <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
                         </a>
                         <a target="_blank" rel="noreferrer" href="mailto:i.seyfouri@gmail.com">
