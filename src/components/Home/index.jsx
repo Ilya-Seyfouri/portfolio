@@ -8,7 +8,7 @@ import ilya from './images/ilya.jpg'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const nameArray = " Ilya, ".split("");
-    const jobArray = "Compit.".split("");
+    const jobArray = "Software Engineer.".split("");
 
     useEffect(() => {
         const timerId = setTimeout(() => {
